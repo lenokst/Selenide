@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/uynlq9yn0aj8ic8i?svg=true)](https://ci.appveyor.com/project/lenokst/api-ci)
+[![Build status](https://ci.appveyor.com/api/projects/status/4pgt3rbue6nsi672?svg=true)](https://ci.appveyor.com/project/lenokst/selenide)
