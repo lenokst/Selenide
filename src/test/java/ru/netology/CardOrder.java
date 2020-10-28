@@ -76,7 +76,7 @@ public class CardOrder {
         $("[data-test-id='date'] input").sendKeys("\b\b\b\b\b\b\b\b");
         $("[data-test-id='date'] input").setValue(formatter.format(newDate));
         $("[data-test-id='name'] input").setValue("Иван Петров");
-        $("[data-test-id='phone'] input").setValue("+79600000000");
+        $("[data-test-id='phone'] input").setValue("+79600000");
         $("[data-test-id='agreement']").click();
         $(byText("Забронировать")).click();
         $(".input_invalid[data-test-id='phone']").shouldHave(text("Телефон указан неверно. Должно быть 11 цифр, например, +79012345678."));
